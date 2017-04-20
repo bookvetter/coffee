@@ -1,4 +1,4 @@
 class Dose < ApplicationRecord
-  belongs_to :Drink
-  belongs_to :Ingredient
+  belongs_to :drink
+  belongs_to :ingredient
 end
